@@ -104,6 +104,9 @@ function updateGameArea() {
     myScore.update();
     myGamePiece.newPos();
     myGamePiece.update();
+  if(myGameArea.frameNo >= 1000){
+  openWinModal();
+}
 }
 
 function everyinterval(n) {
@@ -113,4 +116,13 @@ function everyinterval(n) {
 
 function accelerate(n) {
     myGamePiece.gravity = n;
+}
+
+
+
+var openWinModal= function() {
+if (window.confirm('Great job! Click ok to go to the next puzzle!')) 
+{
+window.location.href='https://paebersol.github.io/EscapeRoomNarrative/puzzle5.html';
+};
 }
