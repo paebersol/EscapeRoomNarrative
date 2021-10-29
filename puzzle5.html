@@ -2,27 +2,66 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Escape Room Action5</title>
-  </body>
-</html> 
-
-
-
-<style>
-body {background-color: cadetblue;}
-h2 {color: lightsteelblue;}
-p {
-color: darkslategrey;
-font-family: Verdana}
-
-</style>
-
+  <title>CodePen - puzzle 5</title>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Hypothermia</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+<body class="background">
+  <div class="container-fluid">
+    <div class="center">
+      <!-- Game title -->
+      <h1>How cold was the water the night the Titanic sank?</h1>
+      <p id='helper-text'>You have 8 tries to guess the temperature in Fahrenheit.</p>
+
+      <form id="guessing-form">
+        <div>
+          <!-- Number input box -->
+          <input class='hide-me' id="number-input" type="text" placeholder="Enter a guess" autocomplete="off">
+          <br>
+          <!-- Hint button -->
+          <button id="hint-btn" class="btn btn-default hide-me" type="button">Help my brain doesn't work like that</button>
+          <!-- Submit button -->
+          <button id='submit-btn' class="btn btn-lg btn-primary hide-me" type="button">Submit</button>
+          <!-- Start Over button -->
+          <button id='startover-btn' class="btn btn-default" type="button">Let me try this again :) </button>
+        </div>
+      </form>
+      <div id='prev-guesses' class='hide-me'></div>
+      <!-- Remaining guesses -->
+      <div class='hide-me'><p>Remaining Guesses:</p><h4 id="guesses-remaining">8</h4></div>
+      
+          </div>
+  </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
 <!-- partial -->
-  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
