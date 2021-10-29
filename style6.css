@@ -2,27 +2,4 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
-}
-
-h1, h2{
-  text-shadow:1.75px 2px white;
-}
-@keyframes spinning{
-  0%{transform: rotate(0deg);}
-    100%{transform: rotate(360deg);}
-}
-
-div.spinningdisk{
-  width="100"; 
-  height="100";
-  animation-name: spinning;
-  animation-duration: 8s;
-  animation-iteration-count: 1;
-}
-#navigationborder{
-  text-align:center; 
-  border:5px double white; padding: 10px; 
-  margin: 10px 150px;
-  box-shadow: 5px 5px 10px white, -5px -5px 10px lightslategray;
-}
+  width: 80%;
